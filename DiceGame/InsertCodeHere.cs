@@ -16,6 +16,7 @@ namespace DiceGame
             //15 sides terning
             Die minDie = new Die(15);
             minDie.RollDie();
+            Console.WriteLine($"Værdien af minDie er {minDie.GetValue()}");
 
 
             //Die die87 = new Die(87);
